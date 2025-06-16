@@ -1,0 +1,10 @@
+.verify{
+    min-height: 60vh;
+    display:grid;
+
+}
+.Message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
