@@ -2,7 +2,7 @@ import React from 'react'
 import './Verify.css'
 import { useSearchParams } from 'react-router-dom'
 import { useContext } from 'react';
-import  StoreProvider  from "../../context/StoreContext";
+import { StoreContext } from '../../context/StoreContext'; 
 import { useNavigate } from 'react-router-dom'
 import { useEffect } from 'react';
 const Verify = () => {
