@@ -2,7 +2,7 @@
 import "./Myorders.css";
 import axios from 'axios'
 import { useContext } from "react";
-import { StoreProvider } from "../../context/StoreContext";
+import StoreProvider  from "../../context/StoreContext";
 import { useState } from "react";
 import { useEffect } from "react";
 import { assets } from "../../assets/assets";
