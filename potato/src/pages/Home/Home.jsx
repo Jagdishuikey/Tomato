@@ -4,7 +4,7 @@ import Header from '../../components/navbar/Header/Header'
 import ExploreMenu from '../../components/ExploreMenu/ExploreMenu';
 import { useState } from 'react';
 import FoodDisplay from '../../components/FoodDisplay/FoodDisplay';
-import { StoreProvider } from "../../context/StoreContext";
+import  StoreProvider  from "../../context/StoreContext";
 import AppDownload from '../../components/AppDownload/AppDownload';
 const Home = () => {
 
