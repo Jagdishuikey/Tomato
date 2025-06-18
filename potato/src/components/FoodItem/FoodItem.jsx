@@ -2,7 +2,8 @@
 import "./FoodItem.css";
 import { assets } from '../../assets/assets';
 import { useContext } from 'react';
-import { StoreContext } from '../../context/StoreContext';
+import { StoreProvider } from "../../context/StoreContext";
+
 
 const FoodItem = ({id,name,price,description,image}) => {
 
