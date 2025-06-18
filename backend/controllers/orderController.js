@@ -8,7 +8,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 // ✅ Place Order Controller
 const placeOrder = async (req, res) => {
-  const frontend_url = "http://localhost:5173";
+  const frontend_url = "https://tomato-1-six.vercel.app";
 
   try {
     const { userId, items, amount, address } = req.body;
