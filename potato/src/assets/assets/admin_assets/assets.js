@@ -13,5 +13,4 @@ export const assets ={
     upload_area,
     parcel_icon
 }
-
 export const url = 'https://tomato-b-jsdj.onrender.com'
