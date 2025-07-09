@@ -14,4 +14,4 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'https://tomato-backend-wc36.onrender.com'
+export const url = 'https://tomato-7.onrender.com'
