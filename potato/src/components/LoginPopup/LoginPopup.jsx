@@ -60,7 +60,7 @@ const LoginPopup = ({setShowLogin}) => {
             <input name='email' onChange={onChangeHandler} value={data.email} type='email' placeholder='your email' required/>
             <input name='password' onChange={onChangeHandler} value={data.password} type='password' placeholder='your password' required/>
         </div>
-        <button type='submit'>{currState==="Sign up"?"Create account":"Sign up"}</button>
+        <button type='submit'>{currState==="Sign up"?"Create account":"Go Ahead"}</button>
         <div className="login-popup-condition">
             <input type="checkbox"required/>
             <p>By continuing ,i agree to the terms of use & privacy policy.</p>
