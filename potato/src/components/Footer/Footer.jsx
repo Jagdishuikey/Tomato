@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <img src={assets.logo} alt=''/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ipsam officia minus iure laborum, magni dolorem accusantium sint amet possimus illum quos eius consequuntur? Quasi sunt pariatur ipsum perferendis nobis.</p>
+                <p>Tomato is your go-to destination for fresh and fast food delivery. From local favorites to popular cuisines, we bring delicious meals right to your doorstep. Our mission is to make food ordering simple, quick, and satisfying</p>
                 <div className="footer-social-icons">
                     <img src={assets.facebook_icon}alt=""/>
                     <img src={assets.twitter_icon}alt=""/>
