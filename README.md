@@ -1,0 +1,1 @@
+Tomato is a full-stack, responsive food delivery web application that allows users to browse a variety of dishes, manage a cart, place orders, and make secure payments online. It features a rich user interface for customers and a separate Admin Panel that provides control over menu items and order monitoring
