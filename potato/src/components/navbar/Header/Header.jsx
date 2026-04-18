@@ -5,14 +5,13 @@ const Header = () => {
     return (
         <div className='header'>
             <div className="header-content">
-                <h2>Order your Favourite food here</h2>
-                <p>Craving something delicious?
-                    With Potato, get your favorite meals delivered hot and fresh — fast.
-
-                   </p>
-                <button>View Menu</button>
+                <h2>Delicious food, delivered to your door</h2>
+                <p>
+                    Craving something amazing? Explore a wide variety of cuisines and
+                    get your favorite meals delivered hot, fresh, and right on time.
+                </p>
+                <button>Explore Menu</button>
             </div>
-
         </div>
     )
 }
