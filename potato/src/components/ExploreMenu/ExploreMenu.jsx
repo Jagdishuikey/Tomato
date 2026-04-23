@@ -6,19 +6,28 @@ const ExploreMenu = ({category,setCategory}) => {
   return (
     <div className='explore-menu' id='explore-menu'>
         <h1>Explore our Menu</h1>
-        <p className='explore-menu-text'>Discover a wide range of delicious dishes crafted with the finest ingredients. From appetizers to desserts, we have something for everyone.</p>
+        <p className='explore-menu-text'>
+          Discover a wide range of delicious dishes crafted with the finest ingredients.
+        </p>
+
         <div className='explore-menu-list'>
             {menu_list.map((item,index)=>{
                 return(
-                    <div onClick={()=>setCategory(prev=>prev===item.menu_name?"All":item.menu_name)}key={index} className='explore-menu-list-item'>
-                        <img className={category===item.menu_name?"active":""} src={item.menu_image} alt=""/>
+                    <div
+                        onClick={()=>setCategory(prev=>prev===item.menu_name?"All":item.menu_name)}
+                        key={index}
+                        className={`explore-menu-list-item ${category===item.menu_name?"active-card":""}`}
+                    >
+                        <div className="image-wrapper">
+                            <img src={item.menu_image} alt=""/>
+                        </div>
                         <p>{item.menu_name}</p>
                     </div>
                 )
             })}
         </div>
+
         <hr/>
-      
     </div>
   )
 }
